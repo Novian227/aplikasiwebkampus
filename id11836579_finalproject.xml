@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.5
+- https://www.phpmyadmin.net
+-
+- Host: localhost:3306
+- Generation Time: Jun 14, 2020 at 09:49 AM
+- Server version: 10.3.16-MariaDB
+- PHP Version: 7.3.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id11836579_finalproject" collation="utf8_unicode_ci" charset="utf8">
+            <pma:table name="hasil_pendadaran">
+                CREATE TABLE `hasil_pendadaran` (
+                  `id_hasilpendadaran` int(11) NOT NULL AUTO_INCREMENT,
+                  `hari_tanggal` date NOT NULL,
+                  `jam` time NOT NULL,
+                  `npm` varchar(100) NOT NULL,
+                  `nilai` varchar(1) NOT NULL,
+                  `status` varchar(100) NOT NULL,
+                  `dosen` varchar(100) NOT NULL,
+                  PRIMARY KEY (`id_hasilpendadaran`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="hasil_yusidium">
+                CREATE TABLE `hasil_yusidium` (
+                  `id_yusidium` int(11) NOT NULL AUTO_INCREMENT,
+                  `nama` varchar(255) NOT NULL,
+                  `nim` varchar(255) NOT NULL,
+                  `ipk` varchar(255) NOT NULL,
+                  `jml_sks` varchar(255) NOT NULL,
+                  `jml_nilai_d` varchar(255) NOT NULL,
+                  `jml_nilai_e` varchar(255) NOT NULL,
+                  `status` varchar(255) NOT NULL,
+                  `keterangan` longtext NOT NULL,
+                  PRIMARY KEY (`id_yusidium`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="jadwal_krs">
+                CREATE TABLE `jadwal_krs` (
+                  `id_krs` int(11) NOT NULL AUTO_INCREMENT,
+                  `judul` varchar(255) NOT NULL,
+                  `hari` date NOT NULL,
+                  `akhir` date NOT NULL,
+                  `prodi` varchar(255) NOT NULL,
+                  PRIMARY KEY (`id_krs`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="jadwal_pendadaran">
+                CREATE TABLE `jadwal_pendadaran` (
+                  `id_pendadaran` int(11) NOT NULL AUTO_INCREMENT,
+                  `no_pendadaran` varchar(100) NOT NULL,
+                  `hari_tanggal` date NOT NULL,
+                  `ruang` varchar(100) NOT NULL,
+                  `waktu` time NOT NULL,
+                  `npm` varchar(100) NOT NULL,
+                  `nama` varchar(100) NOT NULL,
+                  `dosen` varchar(100) NOT NULL,
+                  PRIMARY KEY (`id_pendadaran`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="tbl_berita">
+                CREATE TABLE `tbl_berita` (
+                  `berita_id` int(11) NOT NULL AUTO_INCREMENT,
+                  `berita_judul` varchar(150) DEFAULT NULL,
+                  `berita_isi` text DEFAULT NULL,
+                  `berita_image` varchar(40) DEFAULT NULL,
+                  `berita_tanggal` timestamp NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`berita_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id11836579_finalproject'
+    -->
+    <database name="id11836579_finalproject">
+        <!-- Table hasil_pendadaran -->
+        <!-- Table hasil_yusidium -->
+        <!-- Table jadwal_krs -->
+        <table name="jadwal_krs">
+            <column name="id_krs">5</column>
+            <column name="judul">Jadwal Pengisian KRS Genap TA.2018/2019 Untuk Prodi D3 TI</column>
+            <column name="hari">2019-12-21</column>
+            <column name="akhir">2019-12-31</column>
+            <column name="prodi">D3 Teknik Informatika</column>
+        </table>
+        <table name="jadwal_krs">
+            <column name="id_krs">6</column>
+            <column name="judul">Jadwal Pengisian KRS Genap TA.2022/2023 Untuk Prodi D3 TI</column>
+            <column name="hari">2019-12-22</column>
+            <column name="akhir">2019-12-31</column>
+            <column name="prodi">D3 Teknik Informatika</column>
+        </table>
+        <table name="jadwal_krs">
+            <column name="id_krs">7</column>
+            <column name="judul">Jadwal Pengisian KRS Ganjil TA.2019/2020 Untuk Prodi D3 TI</column>
+            <column name="hari">2019-12-14</column>
+            <column name="akhir">2019-12-31</column>
+            <column name="prodi">D3 Teknik Informatika</column>
+        </table>
+        <!-- Table jadwal_pendadaran -->
+        <!-- Table tbl_berita -->
+        <table name="tbl_berita">
+            <column name="berita_id">25</column>
+            <column name="berita_judul">WISUDA PERIDOE KE-77</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 Februari 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">INFORMASI_PENDAFTARAN_WISUDA.pdf</column>
+            <column name="berita_tanggal">2019-12-30 14:19:19</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">26</column>
+            <column name="berita_judul">WISUDA PERIODE KE-78</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Wisuda.pdf</column>
+            <column name="berita_tanggal">2019-12-30 14:39:25</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">28</column>
+            <column name="berita_judul">WISUDA PERIODE KE-79</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_701.pdf</column>
+            <column name="berita_tanggal">2019-12-30 14:48:57</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">30</column>
+            <column name="berita_judul">WISUDA PERIODE KE-80</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_80.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:08:52</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">31</column>
+            <column name="berita_judul">WISUDA PERIODE KE-81</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_81.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:09:46</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">32</column>
+            <column name="berita_judul">WISUDA PERIODE KE-82</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_82.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:10:26</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">33</column>
+            <column name="berita_judul">WISUDA PERIODE KE-83</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_83.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:11:14</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">34</column>
+            <column name="berita_judul">WISUDA PERIODE KE-84</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_84.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:12:29</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">35</column>
+            <column name="berita_judul">WISUDA PERIODE KE-85</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_85.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:13:09</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">36</column>
+            <column name="berita_judul">WISUDA PERIODE KE-86</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_86.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:14:23</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">37</column>
+            <column name="berita_judul">WISUDA PERIODE KE-87</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_87.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:15:26</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">38</column>
+            <column name="berita_judul">WISUDA PERIODE KE-88</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_88.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:15:59</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">39</column>
+            <column name="berita_judul">WISUDA PERIODE KE-89</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_89.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:16:36</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">40</column>
+            <column name="berita_judul">WISUDA PERIODE KE-90</column>
+            <column name="berita_isi">&lt;p&gt;1. PELAKSANAAN :&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Hari, Tanggal : Sabtu, 01 April 2020&lt;/li&gt;
+	&lt;li&gt;Tempat : The Alana Yogyakarta Hotel &amp;amp; Convetion Center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2. PESERTA&lt;/p&gt;
+
+&lt;p&gt;Data peserta wisuda dapat dilihat pada file berikut,&amp;nbsp;&lt;/p&gt;
+</column>
+            <column name="berita_image">Pendaftaran_Wisuda_Periode_KE_90.pdf</column>
+            <column name="berita_tanggal">2019-12-30 15:17:08</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">41</column>
+            <column name="berita_judul">CHO ANJING</column>
+            <column name="berita_isi">&lt;p&gt;123&lt;/p&gt;
+</column>
+            <column name="berita_image">1_Alprog_Praktik.pdf</column>
+            <column name="berita_tanggal">2019-12-31 01:21:32</column>
+        </table>
+        <table name="tbl_berita">
+            <column name="berita_id">42</column>
+            <column name="berita_judul">Pengumuman Wisuda 99</column>
+            <column name="berita_isi">&lt;p&gt;tES&lt;/p&gt;
+</column>
+            <column name="berita_image">1111.pdf</column>
+            <column name="berita_tanggal">2020-01-07 00:44:57</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} templarassasins.000webhostapp.com [NC]
+RewriteRule ^(.*)$ http://novianandika.me [L,R=301,NC]
+# HTID:11913706: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11913706:

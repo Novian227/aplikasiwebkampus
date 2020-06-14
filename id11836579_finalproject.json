@@ -1,0 +1,46 @@
+[
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"id11836579_finalproject"},
+{"type":"table","name":"hasil_pendadaran","database":"id11836579_finalproject","data":
+[
+
+]
+}
+,{"type":"table","name":"hasil_yusidium","database":"id11836579_finalproject","data":
+[
+
+]
+}
+,{"type":"table","name":"jadwal_krs","database":"id11836579_finalproject","data":
+[
+{"id_krs":"5","judul":"Jadwal Pengisian KRS Genap TA.2018\/2019 Untuk Prodi D3 TI","hari":"2019-12-21","akhir":"2019-12-31","prodi":"D3 Teknik Informatika"},
+{"id_krs":"6","judul":"Jadwal Pengisian KRS Genap TA.2022\/2023 Untuk Prodi D3 TI","hari":"2019-12-22","akhir":"2019-12-31","prodi":"D3 Teknik Informatika"},
+{"id_krs":"7","judul":"Jadwal Pengisian KRS Ganjil TA.2019\/2020 Untuk Prodi D3 TI","hari":"2019-12-14","akhir":"2019-12-31","prodi":"D3 Teknik Informatika"}
+]
+}
+,{"type":"table","name":"jadwal_pendadaran","database":"id11836579_finalproject","data":
+[
+
+]
+}
+,{"type":"table","name":"tbl_berita","database":"id11836579_finalproject","data":
+[
+{"berita_id":"25","berita_judul":"WISUDA PERIDOE KE-77","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 Februari 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"INFORMASI_PENDAFTARAN_WISUDA.pdf","berita_tanggal":"2019-12-30 14:19:19"},
+{"berita_id":"26","berita_judul":"WISUDA PERIODE KE-78","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Wisuda.pdf","berita_tanggal":"2019-12-30 14:39:25"},
+{"berita_id":"28","berita_judul":"WISUDA PERIODE KE-79","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_701.pdf","berita_tanggal":"2019-12-30 14:48:57"},
+{"berita_id":"30","berita_judul":"WISUDA PERIODE KE-80","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_80.pdf","berita_tanggal":"2019-12-30 15:08:52"},
+{"berita_id":"31","berita_judul":"WISUDA PERIODE KE-81","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_81.pdf","berita_tanggal":"2019-12-30 15:09:46"},
+{"berita_id":"32","berita_judul":"WISUDA PERIODE KE-82","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_82.pdf","berita_tanggal":"2019-12-30 15:10:26"},
+{"berita_id":"33","berita_judul":"WISUDA PERIODE KE-83","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_83.pdf","berita_tanggal":"2019-12-30 15:11:14"},
+{"berita_id":"34","berita_judul":"WISUDA PERIODE KE-84","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_84.pdf","berita_tanggal":"2019-12-30 15:12:29"},
+{"berita_id":"35","berita_judul":"WISUDA PERIODE KE-85","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_85.pdf","berita_tanggal":"2019-12-30 15:13:09"},
+{"berita_id":"36","berita_judul":"WISUDA PERIODE KE-86","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_86.pdf","berita_tanggal":"2019-12-30 15:14:23"},
+{"berita_id":"37","berita_judul":"WISUDA PERIODE KE-87","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_87.pdf","berita_tanggal":"2019-12-30 15:15:26"},
+{"berita_id":"38","berita_judul":"WISUDA PERIODE KE-88","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_88.pdf","berita_tanggal":"2019-12-30 15:15:59"},
+{"berita_id":"39","berita_judul":"WISUDA PERIODE KE-89","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_89.pdf","berita_tanggal":"2019-12-30 15:16:36"},
+{"berita_id":"40","berita_judul":"WISUDA PERIODE KE-90","berita_isi":"<p>1. PELAKSANAAN :<\/p>\r\n\r\n<ul>\r\n\t<li>Hari, Tanggal : Sabtu, 01 April 2020<\/li>\r\n\t<li>Tempat : The Alana Yogyakarta Hotel &amp; Convetion Center<\/li>\r\n<\/ul>\r\n\r\n<p>2. PESERTA<\/p>\r\n\r\n<p>Data peserta wisuda dapat dilihat pada file berikut,&nbsp;<\/p>\r\n","berita_image":"Pendaftaran_Wisuda_Periode_KE_90.pdf","berita_tanggal":"2019-12-30 15:17:08"},
+{"berita_id":"41","berita_judul":"CHO ANJING","berita_isi":"<p>123<\/p>\r\n","berita_image":"1_Alprog_Praktik.pdf","berita_tanggal":"2019-12-31 01:21:32"},
+{"berita_id":"42","berita_judul":"Pengumuman Wisuda 99","berita_isi":"<p>tES<\/p>\r\n","berita_image":"1111.pdf","berita_tanggal":"2020-01-07 00:44:57"}
+]
+}
+]
